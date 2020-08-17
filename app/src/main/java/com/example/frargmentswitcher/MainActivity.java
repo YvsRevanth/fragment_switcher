@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements ColorFragment1.Co
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements ColorFragment1.Co
     @Override
     public void colorRed() {
         colorFragment2.coloringTheBlue();
-        }
+    }
 
 
     @Override
