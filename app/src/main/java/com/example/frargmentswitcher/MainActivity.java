@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity implements ColorFragment1.Co
         colorFragment1.setColorOne(this);
         getSupportFragmentManager().beginTransaction().add(R.id.rampage, colorFragment2).commit();
         colorFragment2.setColorTwo(this);
-
     }
 
     @Override
     public void colorRed() {
         colorFragment2.coloringTheBlue();
+      //  someString need to be added
     }
 
 
